@@ -17,10 +17,10 @@ while True:
             tem_especial = True
 
     if len(senha) >= 8 and tem_maiuscula and tem_numero and tem_especial:
-        print("✅ Senha válida e segura!")
+        print(" Senha válida e segura!")
         break  
     else:
-        print("\n❌ Senha inválida. Verifique os seguintes requisitos:")
+        print("\n Senha inválida. Verifique os seguintes requisitos:")
         if len(senha) < 8:
             print("- Deve ter pelo menos 8 caracteres.")
         if not tem_maiuscula:
